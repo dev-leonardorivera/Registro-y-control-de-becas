@@ -1,0 +1,26 @@
+INSTALAR
+La carpeta build contine el codigo empaquetado de la aplicacion copiar en el servidor web 
+NOTA: Se recomienda usar un servidor de Node js y no apache ya que puede tener problemas con la rutas
+de las imagenes.
+se recomienda usar https://www.npmjs.com/package/serve 
+instalacion de serve: descagar e instalar nodejs 
+ejecutar > npm install --global serve en la consola
+entrar desde la consola a la carpeta build y ejecutar
+> serve -s
+
+La carpeta backend_becas contiene las APIs en PHP que hacen consultas a la base de datos y procesan los datos
+copiar dentro de un servido apache 
+se recomienda XAMPP
+
+el archivo becas_db.sql es una copia de la DB
+
+entrar a phpmyadmin  crear una nueva base de datos con el nombre de becas_db e importar el archivo.
+
+
+la aplicacion permite
+ver reportes de los estudiantes
+exportar excel de los estudiantes
+guardar, actualizar y eliminar estudiantes
+crear usuarios con permiso de admin y no admin
+
+los usuarios no admin no pueden modificar o crear nuevos usuarios.
