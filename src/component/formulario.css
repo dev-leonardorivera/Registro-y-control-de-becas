@@ -1,0 +1,12 @@
+.rotated:hover{
+
+    animation-name: rotated-clear;
+    animation-duration: 1s;
+    
+
+}
+
+@keyframes rotated-clear{
+    from{ transform: rotate(0);}
+    to{transform: rotate(180deg);}
+}

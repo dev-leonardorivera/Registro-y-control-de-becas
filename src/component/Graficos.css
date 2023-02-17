@@ -1,0 +1,31 @@
+.img-card{
+    width: 4rem;
+    
+}
+.text-card{
+    font-size: 2rem;
+    color: #343a40;
+    font-weight: bolder;
+}
+.text-title-card{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 1200px) {
+    .img-card{
+        width: 2rem;
+        
+    }
+    .text-card{
+        font-size: 1rem;
+        color: #343a40;
+        font-weight: bolder;
+    }
+    .text-title-card{
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+    
+}
