@@ -1,4 +1,4 @@
-## technology used
+## Technology used
 HTML, CSS,Bootstrap 5, JavaScript, React.js, PHP, MySql
 
 ## Available Scripts
